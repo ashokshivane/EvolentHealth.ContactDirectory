@@ -9,13 +9,13 @@
     <div class="card border-primary mb-3">
         <div class="card-header"><strong>Delete Contact</strong></div>
         <div class="card-body">
-            <h5 class="card-title">Are you sure you want to delete this?</h5>
+            <h5 class="card-title">Are you sure you want to delete this contact?</h5>
 
         </div>
         <div class="card-footer bg-transparent ">
             <form asp-action="Delete">
-                <input type="submit" value="Delete" class="btn btn-danger" /> |
-                <a asp-action="Index">Back to List</a>
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+                <a asp-action="Index" class="btn btn-primary">Back to List</a>
             </form>
         </div>
     </div>
