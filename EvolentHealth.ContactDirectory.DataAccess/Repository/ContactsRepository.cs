@@ -85,7 +85,7 @@ namespace EvolentHealth.ContactDirectory.DataAccess.Repository
 
                     if (contact != null)
                     {
-                        //Delete that post
+                        //Delete that contact
                         _dbContext.Contacts.Remove(contact);
 
                         //Commit the transaction
